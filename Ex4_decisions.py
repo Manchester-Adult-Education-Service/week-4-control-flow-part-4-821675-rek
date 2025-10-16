@@ -28,8 +28,9 @@
 # 3. Print a message if the condition is True.
 
 # Write your code below:
-
-
+user_number1= int(input("What is your number?"))
+if user_number1>0 :
+    print ("the number is positive")
 # -------------------------------------------
 # Task 2: Add else
 # -------------------------------------------
@@ -48,7 +49,11 @@
 # 2. Print a different message if the number does not meet your condition.
 
 # Write your code below:
-
+user_number1= int(input("What is your number?"))
+if user_number1>0 :
+    print ("the number is positive")
+else:
+    print ("the number is negative or zero")
 
 # -------------------------------------------
 # Task 3: Multiple conditions
@@ -71,6 +76,12 @@
 # 3. Test your program with different inputs to see all possible messages.
 
 # Write your code below:
+if user_number1>0 :
+    print ("the number is positive")
+elif user_number1 == 0 :
+    print ("the number is zero")
+else:
+    print ("the number is negative")
 
 
 # -------------------------------------------
