@@ -105,6 +105,10 @@ else:
 # Ask the user for a number and a word.
 # Use conditions to print a message only if the number is greater than a value
 # AND the word matches a stored word.
+a_number= int(input("Enter a number? "))
+a_word = input("Enter a word? ")
+if a_number == 0 and a_word == "Fred" :
+    print(f"Your number is {a_number} and your word is {a_word}")
 
 # Extension 2:
 # Ask the user for a number.
@@ -112,6 +116,13 @@ else:
 # - number is positive
 # - number is zero
 # - number is negative
+a_number= int(input("Enter a number?"))
+if a_number>0 :
+    print ("the number is positive")
+elif a_number == 0 :
+    print ("the number is zero")
+else:
+    print ("the number is negative")
 
 # Extension 3 (more challenging):
 # Create a small quiz:
@@ -120,7 +131,13 @@ else:
 # - Add another condition to give a special message if the answer is partially correct.
 
 # Write your extension code below:
-
+answer = input("What is the capital of Great Britain?\n1 New York\n2 Tokyo \n3 London\n4 Manchester")
+if answer == "3":
+    print("Correct!")
+elif answer == "4":
+    print("Right country wrong city")
+else:
+    print("Try again!")
 
 # -------------------------------------------
 # Submitting Your Work
