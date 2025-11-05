@@ -28,7 +28,7 @@
 # 3. Print a message if the condition is True.
 
 # Write your code below:
-user_number1= int(input("What is your number?"))
+user_number1= int(input("What is your number?: "))
 if user_number1>0 :
     print ("the number is positive")
 # -------------------------------------------
@@ -49,7 +49,7 @@ if user_number1>0 :
 # 2. Print a different message if the number does not meet your condition.
 
 # Write your code below:
-user_number1= int(input("What is your number?"))
+user_number1= int(input("What is your number?: "))
 if user_number1>0 :
     print ("the number is positive")
 else:
@@ -105,8 +105,8 @@ else:
 # Ask the user for a number and a word.
 # Use conditions to print a message only if the number is greater than a value
 # AND the word matches a stored word.
-a_number= int(input("Enter a number? "))
-a_word = input("Enter a word? ")
+a_number= int(input("Enter a number?: "))
+a_word = input("Enter a word?: ")
 if a_number == 0 and a_word == "Fred" :
     print(f"Your number is {a_number} and your word is {a_word}")
 
@@ -116,7 +116,7 @@ if a_number == 0 and a_word == "Fred" :
 # - number is positive
 # - number is zero
 # - number is negative
-a_number= int(input("Enter a number?"))
+a_number= int(input("Enter a number?: "))
 if a_number>0 :
     print ("the number is positive")
 elif a_number == 0 :
